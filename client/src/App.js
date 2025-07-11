@@ -12,7 +12,7 @@ function App() {
   const handleGenerate = async () => {
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:5000/generate-email", {
+      const res = await axios.post("https://quick-draft.onrender.com/generate-email", {
         purpose,
         tone,
         recipient,
