@@ -1,6 +1,13 @@
 {
+  "name": "fullstack-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run start --prefix client",
+    "build": "npm run build --prefix client"
+  },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "dotenv": "^17.0.0"
   }
 }
+
